@@ -1,0 +1,23 @@
+export const quizQuestions = [
+    { id: 1, topic: 'TypeScript', difficulty: 'Easy', question: 'Which TypeScript feature lets you define the shape of an object?', options: ['Interface', 'Namespace', 'Decorator', 'Import'], correctAnswerIndex: 0 },
+    { id: 2, topic: 'TypeScript', difficulty: 'Easy', question: 'Which keyword creates a value that cannot be reassigned?', options: ['var', 'static', 'const', 'readonly'], correctAnswerIndex: 2 },
+    { id: 3, topic: 'TypeScript', difficulty: 'Easy', question: 'Which file is used to configure the TypeScript compiler?', options: ['typescript.json', 'tsconfig.json', 'package.json', 'compiler.ts'], correctAnswerIndex: 1 },
+    { id: 4, topic: 'TypeScript', difficulty: 'Easy', question: 'Which type is inferred for const greeting = "Hello"?', options: ['string', 'text', 'any', 'unknown'], correctAnswerIndex: 0 },
+    { id: 5, topic: 'TypeScript', difficulty: 'Easy', question: 'Which symbol starts a TypeScript single-line comment?', options: ['<!--', '//', '#', '/*'], correctAnswerIndex: 1 },
+    { id: 6, topic: 'TypeScript', difficulty: 'Medium', question: 'What is the safest type for a value whose type is not known yet?', options: ['any', 'object', 'unknown', 'never'], correctAnswerIndex: 2 },
+    { id: 7, topic: 'TypeScript', difficulty: 'Medium', question: 'What does the question mark mean in name?: string?', options: ['The property is optional', 'The property is private', 'The property is nullable only', 'The property is a question'], correctAnswerIndex: 0 },
+    { id: 8, topic: 'TypeScript', difficulty: 'Medium', question: 'Which utility type makes every property in a type optional?', options: ['Readonly<T>', 'Required<T>', 'Partial<T>', 'Record<T>'], correctAnswerIndex: 2 },
+    { id: 9, topic: 'TypeScript', difficulty: 'Medium', question: 'What is the return type of a function that does not return a value?', options: ['null', 'undefined', 'never', 'void'], correctAnswerIndex: 3 },
+    { id: 10, topic: 'TypeScript', difficulty: 'Medium', question: 'How do you declare a number array in TypeScript?', options: ['number{}', 'number[]', 'Array.number', '[number]'], correctAnswerIndex: 1 },
+    { id: 11, topic: 'TypeScript', difficulty: 'Hard', question: 'Which type represents a function that never completes normally?', options: ['void', 'undefined', 'unknown', 'never'], correctAnswerIndex: 3 },
+    { id: 12, topic: 'TypeScript', difficulty: 'Hard', question: 'What does this generic function preserve? identity<T>(value: T): T', options: ['The value type', 'Only strings', 'Only object keys', 'The file type'], correctAnswerIndex: 0 },
+    { id: 13, topic: 'TypeScript', difficulty: 'Hard', question: 'Which operator narrows a union using a runtime check?', options: ['typeof', 'keyof', 'as', 'extends'], correctAnswerIndex: 0 },
+    { id: 14, topic: 'TypeScript', difficulty: 'Hard', question: 'What does Readonly<User> do?', options: ['Deletes User', 'Prevents property reassignment', 'Makes User optional', 'Creates a class'], correctAnswerIndex: 1 },
+    { id: 15, topic: 'TypeScript', difficulty: 'Hard', question: 'Which construct creates a type from a fixed set of string values?', options: ['A string literal union', 'A namespace', 'A tuple only', 'A decorator'], correctAnswerIndex: 0 },
+    { id: 16, topic: 'DOM Manipulation', difficulty: 'Easy', question: 'Which method selects an element by its ID?', options: ['querySelectorAll()', 'getElementById()', 'createElement()', 'appendChild()'], correctAnswerIndex: 1 },
+    { id: 17, topic: 'DOM Manipulation', difficulty: 'Medium', question: 'Which method adds a new child node to the end of a parent element?', options: ['removeChild()', 'appendChild()', 'replaceChild()', 'cloneNode()'], correctAnswerIndex: 1 },
+    { id: 18, topic: 'DOM Manipulation', difficulty: 'Hard', question: 'What is the safest way to insert plain user text into an element?', options: ['innerHTML', 'outerHTML', 'textContent', 'document.write'], correctAnswerIndex: 2 },
+    { id: 19, topic: 'Events', difficulty: 'Easy', question: 'Which method listens for a click on a button?', options: ['addEventListener()', 'appendEvent()', 'watchClick()', 'onClickListener()'], correctAnswerIndex: 0 },
+    { id: 20, topic: 'Events', difficulty: 'Medium', question: 'Which event object method prevents the browser default action?', options: ['stopPropagation()', 'preventDefault()', 'cancelEvent()', 'stopDefault()'], correctAnswerIndex: 1 },
+    { id: 21, topic: 'Events', difficulty: 'Hard', question: 'What is event delegation?', options: ['A parent handles events from child elements', 'Removing all listeners', 'Sending events to a server', 'Creating a custom event only'], correctAnswerIndex: 0 }
+];
